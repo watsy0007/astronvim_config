@@ -1,7 +1,1 @@
-return {
-  {
-    "github/copilot.vim",
-    event = "InsertEnter",
-    autoStart = true,
-  }
-}
+return {{"github/copilot.vim", event = "VeryLazy", autoStart = true}}
